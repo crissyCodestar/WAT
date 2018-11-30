@@ -1,0 +1,159 @@
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  border: 0;
+  padding: 0;
+}
+.Map {
+  border: solid 2px rgba(0,0,0,.17);
+  height: 70vh;
+  width: 30vw;
+  float: right;
+  margin-top: 5vh;
+  margin-right: 1vw;
+  border-radius: .3rem;
+}
+
+.galleryInfo {
+  font-size: 1.5vw;
+}
+
+.galleryInfo:first-child{
+  color: rgba(0,0,0,.57);
+  font-weight: 600;
+}
+
+.galleryInfo h3{
+    color: rgba(0,0,0,.87);
+}
+
+.results {
+  border: solid 2px rgba(0,0,0,.17);
+  height: 70vh;
+  width: 30vw;
+  float: left;
+  margin-top: 5vh;
+  margin-left: 1vw;
+  border-radius: .3rem;
+}
+
+.address {
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top:10vh;
+    align-self: center;
+    border-radius: .3rem;
+}
+
+button::-webkit-input-placeholder,
+input::-webkit-input-placeholder{
+  color: rgba(23,23,23,.30);
+}
+
+button:focus::-webkit-input-placeholder,
+input:focus::-webkit-input-placeholder{
+  color: rgba(23,23,23,.20);
+
+}
+
+.main_con {
+  height: 140vh;
+
+}
+
+.quote_con {
+    margin: 0;
+    top:50vh;
+
+}
+
+#homePage {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search_bar {
+  height: 20vh;
+  width: 100vw;
+}
+
+.intro{
+  height: 10vh;
+  width: 100vw;
+  margin: auto;
+  font-size: 3vw;
+  color: rgba(0,201,164,.75);
+  padding: 3vh 0;
+}
+
+#searchBar {
+    width: 70vw;
+    height: 9vh;
+    font-size: 8vh;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 1px rgb(0,201,164) solid;
+}
+
+.submit {
+    border-radius: .3rem;
+    bottom: 1vh;
+    width: 6vw;
+    font-size: 3vh;
+    padding: .3rem;
+    margin: 1rem;
+    color: white;
+    background-color: rgba(0,201,164,.65);
+}
+
+.submit:hover{
+  background-color: rgba(0,201,164,.95);
+}
+
+input:focus, select:focus, button:focus{
+  outline:none;
+}
+
+
+#quote p{
+  font-size: 3vw;
+}
+
+#quote h3{
+  font-size: 2vw;
+}
+
+#galleryList {
+  height: 70vh;
+  width: 30vw;
+  float: left;
+  margin-top: 2vh;
+  border-right: 2px solid rgba(0,0,0,.17);
+  overflow-y:scroll;
+  text-align: left;
+  padding: 15px 0;
+}
+
+/* #renderedGallery {
+    text-align: left;
+    margin-left: 40;
+} */
+
+
+#map {
+    border: 2px solid black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2vh;
+    height: 70vh;
+    border-radius: .3rem;
+}

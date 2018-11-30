@@ -1,0 +1,63 @@
+
+
+#galleryList {
+    counter-reset: li;
+    overflow-y: scroll;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+  }
+
+  ul li {
+    margin: 0;
+    list-style: none;
+  }
+
+  ul,
+  ul li { display: block; }
+
+
+
+  .list_item  {
+    cursor: pointer;
+    line-height: .6vh;
+    text-transform: uppercase;
+    padding: .5rem .2rem;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid rgba(0,0,0,.1);
+  }
+
+  .list_num{
+    color: rgba(0,201,164,.4);
+    font-size: 4.5rem;
+    display: block;
+    margin-top: 1rem;
+
+  }
+
+li:hover{
+    background-color: rgba(0,0,0,.1) ;
+  }
+
+  .link-title {
+    display: block;
+    width: 21rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight:600;
+    line-height: 1rem;
+
+  }
+
+
+.link-excerpt {
+  font-size: 1rem;
+  color: rgba(0,0,0,.57);
+  font-weight: bold;
+}
